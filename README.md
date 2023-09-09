@@ -38,3 +38,7 @@
      - 不满足问题: 区间的众数，区间连续最长问题
      - 数据结构形式: tree{left: 左范围，right: 右范围，value: 值，lazy: 更新值}，eg. tree{left = 1, right = 2, value = 1, lazy = 1}，表示其范围为[1, 2], 当前值为1，lazy值为1(需要向其子区间传递相应值更新)
    - log2整数部分快速求法
+## 9-9
+1. Nim游戏
+   - Nim游戏具体说明参见[Nim游戏算法思路](9-9-practice/1/solve.md)
+2. Nim游戏变式
